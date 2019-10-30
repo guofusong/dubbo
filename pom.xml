@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fun.hijklmn</groupId>
+    <artifactId>dubbo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <modules>
+        <module>dubbo-api</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
+        <module>dubbo-business</module>
+        <module>dubbo-common</module>
+        <module>dubbo-kafka</module>
+    </modules>
+
+    <properties>
+        <spring-cloud-dependencies.version>Finchley.RELEASE</spring-cloud-dependencies.version>
+        <spring-boot-dependencies.version>2.0.0.RELEASE</spring-boot-dependencies.version>
+        <dubbo-spring-boot-starter.version>2.7.1</dubbo-spring-boot-starter.version>
+        <spring-boot-starter-dubbo.version>1.0.0</spring-boot-starter-dubbo.version>
+        <dubbo-spring-boot-starter.version>0.2.0</dubbo-spring-boot-starter.version>
+        <zookeeper.version>3.5.6</zookeeper.version>
+        <zkclient.version>0.10</zkclient.version>
+        <kafka.version>2.3.1</kafka.version>
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <fastjson.version>1.2.62</fastjson.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencyManagement>
+
+        <dependencies>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot-dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.101tec</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>${zkclient.version}</version>
+            </dependency>
+
+            <!-- <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo-spring-boot-starter.version}</version>
+            </dependency> -->
+
+            <dependency>
+                <groupId>io.dubbo.springboot</groupId>
+                <artifactId>spring-boot-starter-dubbo</artifactId>
+                <version>${spring-boot-starter-dubbo.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo-spring-boot-starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka-clients</artifactId>
+                <version>${kafka.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${commons-beanutils.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${commons-beanutils.version}</version>
+            </dependency>
+
+        </dependencies>
+
+    </dependencyManagement>
+
+</project>

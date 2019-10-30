@@ -1,0 +1,9 @@
+fun/hijklmn/mapper/UserMapper.class
+fun/hijklmn/bo/UserBo.class
+fun/hijklmn/api/TestService.class
+fun/hijklmn/mapper/CommonMapper.class
+fun/hijklmn/mapper/JobMapper.class
+fun/hijklmn/bo/JobBo.class
+fun/hijklmn/pojo/User.class
+fun/hijklmn/pojo/Job.class
+fun/hijklmn/bo/DataBo.class

@@ -1,0 +1,4 @@
+fun/hijklmn/kafka/service/HijklmnConsumerService.class
+fun/hijklmn/kafka/client/consumer/HijklmnKafkaConsumer.class
+fun/hijklmn/kafka/constant/KafkaConstant.class
+fun/hijklmn/kafka/client/provider/HijklmnKafkaProvider.class

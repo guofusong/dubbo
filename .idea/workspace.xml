@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="daa31811-e7b2-4fac-b1df-a580f6f46f5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/api/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/bo/DataBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/bo/JobBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/bo/UserBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/CommonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/JobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/JobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/pojo/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-business/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/kafka/HijklmnKafkaConsumerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/CommonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/JobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/impl/JobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/constants/KafkaConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/BeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/JSONUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/client/consumer/HijklmnKafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/client/provider/HijklmnKafkaProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/constant/KafkaConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/service/HijklmnConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/ApplicationConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/constant/KafkaConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/provider/service/test/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/.idea/dictionaries/guofusong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-api-gateway/conf/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-api-gateway/springcloud-api-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-api-gateway/src/main/java/com/hijklmn/springcloud/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-api-gateway/src/main/java/com/hijklmn/springcloud/conf/ApplicationConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-api-gateway/src/main/java/com/hijklmn/springcloud/filter/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-order/conf/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-order/springcloud-biz-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-order/src/main/java/fun/hijklmn/springcloud/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-order/src/main/java/fun/hijklmn/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-repo/conf/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-repo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-repo/springcloud-biz-repo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-repo/src/main/java/fun/hijklmn/springcloud/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-biz-repo/src/main/java/fun/hijklmn/springcloud/controller/RepoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/springcloud-commons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/src/main/java/fun/hijklmn/springcloud/biz/Req.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/src/main/java/fun/hijklmn/springcloud/biz/Rsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/src/main/java/fun/hijklmn/springcloud/constants/BizCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/src/main/java/fun/hijklmn/springcloud/constants/PayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/src/main/java/fun/hijklmn/springcloud/pack/SpringBootLoadingDefaultProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/src/main/java/fun/hijklmn/springcloud/po/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-commons/src/main/java/fun/hijklmn/springcloud/po/RepoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/conf/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/springcloud-guest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/conf/ApplicationConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/controller/RepoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/service/RepoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/service/impl/OrderServiceFeignFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-guest/src/main/java/fun/hijklmn/springcloud/service/impl/RepoServiceFeignFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-netflix-eureka/conf/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-netflix-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-netflix-eureka/springcloud-netflix-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-netflix-eureka/src/main/java/com/hijklmn/springcloud/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/conf/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/src/main/java/fun/hijklmn/springcloud/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/src/main/java/fun/hijklmn/springcloud/SpringBootLoadingDefaultProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/src/main/java/fun/hijklmn/springcloud/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-biz-order/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-biz-order/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/classes/fun/hijklmn/springcloud/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/classes/fun/hijklmn/springcloud/SpringBootLoadingDefaultProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/classes/fun/hijklmn/springcloud/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/conf/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/HdrHistogram-2.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/antlr-runtime-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/archaius-core-0.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/bcpkix-jdk15on-1.56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/bcprov-jdk15on-1.56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/commons-configuration-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/commons-jxpath-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/commons-math-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/compactmap-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/dexx-collections-0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/eureka-client-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/eureka-core-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/guava-16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/guice-4.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/hibernate-validator-6.0.7.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/hystrix-core-1.5.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jackson-datatype-jdk8-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jackson-datatype-jsr310-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jackson-module-parameter-names-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jersey-apache-client4-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jersey-client-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jersey-core-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jettison-1.3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/joda-time-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/log4j-api-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netflix-commons-util-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netflix-eventbus-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netflix-infix-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netflix-statistics-0.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netty-buffer-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netty-codec-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netty-codec-http-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netty-common-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netty-resolver-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netty-transport-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netty-transport-native-epoll-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/netty-transport-native-unix-common-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/ribbon-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/ribbon-core-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/ribbon-eureka-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/ribbon-httpclient-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/ribbon-loadbalancer-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/ribbon-transport-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/rxjava-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/rxnetty-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/rxnetty-contexts-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/rxnetty-servo-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/servo-core-0.12.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/snakeyaml-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-boot-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-boot-autoconfigure-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-boot-starter-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-boot-starter-aop-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-boot-starter-json-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-boot-starter-logging-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-boot-starter-tomcat-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-boot-starter-web-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-commons-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-context-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-netflix-archaius-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-netflix-core-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-netflix-ribbon-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-starter-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-starter-netflix-archaius-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-starter-netflix-eureka-client-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-cloud-starter-netflix-ribbon-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-security-crypto-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-security-rsa-1.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/springcloud-commons-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/stax-api-1.0-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/stax2-api-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/stringtemplate-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/tomcat-embed-core-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/tomcat-embed-el-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/tomcat-embed-websocket-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/woodstox-core-asl-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/xmlpull-1.1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/xpp3_min-1.1.4c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/lib/xstream-1.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/springcloud-biz-order-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/target/springcloud-biz-order.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/conf/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/src/main/java/fun/hijklmn/springcloud/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/src/main/java/fun/hijklmn/springcloud/SpringBootLoadingDefaultProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/src/main/java/fun/hijklmn/springcloud/controller/RepoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-biz-repo/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-biz-repo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/classes/fun/hijklmn/springcloud/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/classes/fun/hijklmn/springcloud/SpringBootLoadingDefaultProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/classes/fun/hijklmn/springcloud/controller/RepoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/conf/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/HdrHistogram-2.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/antlr-runtime-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/archaius-core-0.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/bcpkix-jdk15on-1.56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/bcprov-jdk15on-1.56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/commons-configuration-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/commons-jxpath-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/commons-math-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/compactmap-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/dexx-collections-0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/eureka-client-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/eureka-core-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/feign-core-9.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/feign-hystrix-9.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/feign-java8-9.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/feign-slf4j-9.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/guava-16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/guice-4.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/hibernate-validator-6.0.7.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/hystrix-core-1.5.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jackson-datatype-jdk8-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jackson-datatype-jsr310-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jackson-module-parameter-names-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jersey-apache-client4-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jersey-client-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jersey-core-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jettison-1.3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/joda-time-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/log4j-api-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netflix-commons-util-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netflix-eventbus-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netflix-infix-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netflix-statistics-0.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netty-buffer-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netty-codec-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netty-codec-http-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netty-common-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netty-resolver-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netty-transport-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netty-transport-native-epoll-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/netty-transport-native-unix-common-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/ribbon-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/ribbon-core-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/ribbon-eureka-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/ribbon-httpclient-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/ribbon-loadbalancer-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/ribbon-transport-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/rxjava-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/rxnetty-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/rxnetty-contexts-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/rxnetty-servo-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/servo-core-0.12.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/snakeyaml-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-boot-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-boot-autoconfigure-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-boot-starter-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-boot-starter-aop-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-boot-starter-json-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-boot-starter-logging-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-boot-starter-tomcat-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-boot-starter-web-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-commons-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-context-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-netflix-archaius-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-netflix-core-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-netflix-ribbon-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-openfeign-core-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-starter-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-starter-netflix-archaius-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-starter-netflix-eureka-client-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-starter-netflix-ribbon-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-cloud-starter-openfeign-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-security-crypto-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-security-rsa-1.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/springcloud-commons-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/stax-api-1.0-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/stax2-api-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/stringtemplate-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/tomcat-embed-core-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/tomcat-embed-el-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/tomcat-embed-websocket-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/woodstox-core-asl-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/xmlpull-1.1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/xpp3_min-1.1.4c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/lib/xstream-1.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/springcloud-biz-repo-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-biz-repo/target/springcloud-biz-repo.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/src/main/java/fun/hijklmn/springcloud/biz/Req.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/src/main/java/fun/hijklmn/springcloud/biz/Rsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/src/main/java/fun/hijklmn/springcloud/constants/BizCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/src/main/java/fun/hijklmn/springcloud/constants/PayType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/src/main/java/fun/hijklmn/springcloud/po/OrderDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/src/main/java/fun/hijklmn/springcloud/po/RepoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-commons/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-commons/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/fun/hijklmn/springcloud/biz/Req.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/fun/hijklmn/springcloud/biz/Rsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/fun/hijklmn/springcloud/constants/BizCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/fun/hijklmn/springcloud/constants/PayType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/fun/hijklmn/springcloud/po/OrderDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/classes/fun/hijklmn/springcloud/po/RepoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-commons/target/springcloud-commons-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/conf/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/SpringBootLoadingDefaultProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/conf/ApplicationConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/controller/RepoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/service/RepoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/service/impl/OrderServiceFeignFallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/src/main/java/fun/hijklmn/springcloud/service/impl/RepoServiceFeignFallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-guest/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-guest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/SpringBootLoadingDefaultProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/conf/ApplicationConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/controller/RepoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/service/RepoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/service/impl/OrderServiceFeignFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-guest/target/classes/fun/hijklmn/springcloud/service/impl/RepoServiceFeignFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/conf/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/src/main/java/fun/hijklmn/springcloud/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/src/main/java/fun/hijklmn/springcloud/SpringBootLoadingDefaultProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-netflix-eureka/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/classes/META-INF/maven/fun.hijklmn.springcloud/springcloud-netflix-eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/classes/fun/hijklmn/springcloud/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/classes/fun/hijklmn/springcloud/SpringBootLoadingDefaultProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/conf/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/HdrHistogram-2.1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/LatencyUtils-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/antlr-runtime-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/archaius-core-0.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/bcpkix-jdk15on-1.56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/bcprov-jdk15on-1.56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/commons-configuration-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/commons-jxpath-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/commons-math-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/compactmap-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/dexx-collections-0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/eureka-client-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/eureka-core-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/freemarker-2.3.27-incubating.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/guava-16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/guice-4.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/hibernate-validator-6.0.7.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/hystrix-core-1.5.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jackson-dataformat-xml-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jackson-datatype-jdk8-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jackson-datatype-jsr310-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jackson-module-jaxb-annotations-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jackson-module-parameter-names-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jersey-apache-client4-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jersey-client-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jersey-core-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jersey-server-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jersey-servlet-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jettison-1.3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/joda-time-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jsr305-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/log4j-api-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/micrometer-core-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netflix-commons-util-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netflix-eventbus-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netflix-infix-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netflix-statistics-0.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netty-buffer-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netty-codec-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netty-codec-http-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netty-common-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netty-resolver-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netty-transport-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netty-transport-native-epoll-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/netty-transport-native-unix-common-4.1.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/ribbon-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/ribbon-core-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/ribbon-eureka-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/ribbon-httpclient-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/ribbon-loadbalancer-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/ribbon-transport-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/rxjava-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/rxnetty-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/rxnetty-contexts-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/rxnetty-servo-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/servo-core-0.12.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/snakeyaml-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-actuator-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-actuator-autoconfigure-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-autoconfigure-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-starter-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-starter-actuator-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-starter-aop-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-starter-freemarker-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-starter-json-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-starter-logging-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-starter-tomcat-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-boot-starter-web-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-commons-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-context-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-netflix-archaius-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-netflix-core-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-netflix-eureka-server-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-netflix-ribbon-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-starter-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-starter-netflix-archaius-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-starter-netflix-eureka-server-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-cloud-starter-netflix-ribbon-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-security-crypto-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-security-rsa-1.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/stax-api-1.0-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/stax2-api-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/stringtemplate-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/tomcat-embed-core-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/tomcat-embed-el-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/tomcat-embed-websocket-8.5.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/woodstox-core-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/woodstox-core-asl-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/xmlpull-1.1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/xpp3_min-1.1.4c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/lib/xstream-1.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/springcloud-netflix-eureka-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-netflix-eureka/target/springcloud-netflix-eureka.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-pom/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-pom/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-pom/pom.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-business/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-common/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-kafka/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-business/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/impl/JobServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/kafka/HijklmnKafkaConsumerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/pojo/Job.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/provider/service/test/TestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="68" column="30" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="30" />
+              <folding>
+                <element signature="e#1563#1579#0" expanded="true" />
+                <element signature="e#1857#1873#0" expanded="true" />
+                <element signature="e#2165#2181#0" expanded="true" />
+                <element signature="e#2480#2496#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/JobService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/CommonService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/Application.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/JobMapper.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/CommonMapper.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/constants/KafkaConstant.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/UUIDUtil.java" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/consumer/KafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/KafkaConstant.java" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/consumer/HijklmnKafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/service/HijklmnConsumerService.java" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/client/provider/HijklmnKafkaProvider.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/ApplicationConf.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/bo/UserBo.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/bo/JobBo.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/api/TestService.java" />
+        <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/client/consumer/HijklmnKafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/constant/KafkaConstant.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/constant/KafkaConstant.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/JSONUtil.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/UserService.java" />
+        <option value="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/JobService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/BeanUtil.java" />
+        <option value="$PROJECT_DIR$/dubbo-business/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/CommonService.java" />
+        <option value="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/impl/JobServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/kafka/HijklmnKafkaConsumerService.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/provider/service/test/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/kafka/HijklmnKafkaConsumerServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../1.repo/1.mavenrepo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../2.tools/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../2.tools/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-business" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-business" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/guofusong.xml" />
+        <option value="$PROJECT_DIR$/dubbo-business/dubbo-business.iml" />
+        <option value="$PROJECT_DIR$/dubbo-common/dubbo-common.iml" />
+        <option value="$PROJECT_DIR$/dubbo-kafka/dubbo-kafka.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hijklmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hijklmn" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hijklmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hijklmn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hijklmn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hijklmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hijklmn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hijklmn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/pojo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/pojo" />
+      <recent name="$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper" />
+      <recent name="$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/service/impl" />
+      <recent name="$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/service" />
+      <recent name="$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.UUIDUtil">
+    <configuration name="UUIDUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.hijklmn.utils.UUIDUtil" />
+      <module name="dubbo-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.hijklmn.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.hijklmn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fun.hijklmn.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fun.hijklmn.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UUIDUtil" />
+        <item itemvalue="Spring Boot.Application (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daa31811-e7b2-4fac-b1df-a580f6f46f5e" name="Default Changelist" comment="" />
+      <created>1572330992180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572330992180</updated>
+      <workItem from="1572330995636" duration="20748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20748000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1440" height="825" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.24964234" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3287858" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.36834925" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39972714" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3287858" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.36834925" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39972714" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/consumer/service/impl/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/fun/hijklmn/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/JobMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1663">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/JobMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/mapper/CommonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/constants/KafkaConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/service/HijklmnConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/ApplicationConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="300" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="300" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/bo/DataBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/bo/JobBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/api/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/constant/KafkaConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/client/consumer/HijklmnKafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2160#2176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-kafka/src/main/java/fun/hijklmn/kafka/client/provider/HijklmnKafkaProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/constant/KafkaConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="33" selection-start-line="33" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/bo/UserBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/UUIDUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/JSONUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../1.repo/1.mavenrepo/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="100" selection-start-line="100" selection-end-line="104" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../1.repo/1.mavenrepo/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar!/org/apache/commons/beanutils/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="34" column="120" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/fun/hijklmn/utils/BeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/JobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/CommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/fun/hijklmn/pojo/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/service/impl/JobServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/fun/hijklmn/provider/service/test/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="30" />
+          <folding>
+            <element signature="e#1563#1579#0" expanded="true" />
+            <element signature="e#1857#1873#0" expanded="true" />
+            <element signature="e#2165#2181#0" expanded="true" />
+            <element signature="e#2480#2496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-business/src/main/java/fun/hijklmn/kafka/HijklmnKafkaConsumerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dubbo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
