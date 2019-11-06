@@ -8,10 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-common" />
         <module name="dubbo-api" />
-        <module name="dubbo-business" />
+        <module name="dubbo-provider" />
         <module name="dubbo-consumer" />
         <module name="dubbo-kafka" />
-        <module name="dubbo-provider" />
+        <module name="dubbo-business" />
       </profile>
     </annotationProcessing>
   </component>

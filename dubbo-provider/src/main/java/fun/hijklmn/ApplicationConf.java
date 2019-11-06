@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ApplicationConf {
 
-    @Bean
+    @Bean(initMethod = "init")
     public HijklmnKafkaProvider hijklmnKafkaProvider() {
         return new HijklmnKafkaProvider();
     }

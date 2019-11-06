@@ -1,8 +1,9 @@
 package fun.hijklmn.bo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class UserBo {
+public class UserBo implements Serializable {
 
 
     private String userId;

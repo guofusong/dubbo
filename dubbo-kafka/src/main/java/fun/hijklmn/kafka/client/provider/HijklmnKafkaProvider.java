@@ -5,13 +5,19 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 import java.util.Properties;
 
 public class HijklmnKafkaProvider {
 
+    private Logger logger = LoggerFactory.getLogger(HijklmnKafkaProvider.class);
+
     private Properties properties = new Properties();
+
+    private Producer<String, String> producer;
 
     public HijklmnKafkaProvider(){
 
@@ -31,9 +37,10 @@ public class HijklmnKafkaProvider {
         return this;
     }
 
-    public void send(String topic, String content) {
+    public void init() {
 
-        if (StringUtils.isBlank(topic)) {
+        if (producer != null) {
+            logger.info("-----> Kafka producer has been init .");
             return;
         }
 
@@ -48,7 +55,22 @@ public class HijklmnKafkaProvider {
             properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         }
 
-        Producer<String, String> producer = new KafkaProducer<String, String>(properties);
+        this.producer = new KafkaProducer<String, String>(properties);
+
+        logger.info("-----> Kafka producer has been init .");
+
+    }
+
+    public void send(String topic, String content) {
+
+        if (producer == null) {
+            logger.info("-----> Kafka producer not init .");
+            return;
+        }
+
+        if (StringUtils.isBlank(topic)) {
+            return;
+        }
 
         ProducerRecord producerRecord = new ProducerRecord(topic, content);
 

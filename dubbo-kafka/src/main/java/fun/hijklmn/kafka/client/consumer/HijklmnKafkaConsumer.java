@@ -23,6 +23,10 @@ public class HijklmnKafkaConsumer {
 
     public HijklmnKafkaConsumer() {}
 
+    public HijklmnKafkaConsumer(HijklmnConsumerService hijklmnConsumerService) {
+        this.hijklmnConsumerService = hijklmnConsumerService;
+    }
+
     public HijklmnKafkaConsumer(Properties properties) {
         this.properties.putAll(properties);
     }
@@ -37,7 +41,7 @@ public class HijklmnKafkaConsumer {
         return this;
     }
 
-    public void service() {
+    public void init() {
 
         if (!isService) {
             logger.info("---------> Kafka消费者已经启动。");
